@@ -1,0 +1,2 @@
+dashan_2dnav:dashan_bringup:dashan_core:dashan_description:dashan_diagnosis:dashan_mode:dashan_msg:dashan_odometry:dashan_serial:dashan_velsmoother:ros_joy
+-DCATKIN_DEVEL_PREFIX=/home/zhishan/Dashan_demo_update/devel -DCMAKE_INSTALL_PREFIX=/home/zhishan/Dashan_demo_update/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/zhishan/Dashan_demo_update/devel
+
+Name: ros_joy
+Description: Description of ros_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhishan/Dashan_demo_update/devel/lib 
+Requires: 

@@ -1,0 +1,21 @@
+<launch>
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen" clear_params="true">
+  
+    
+    <param name="planner_frequency" value="1.0" />
+    <param name="GlobalPlanner/use_dijkstra " value="true" />
+    <param name="GlobalPlanner/allow_unknown " value="false" />
+    <param name="planner_patience" value="5.0" />
+    <!--
+    <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS" />
+    --> 
+    
+    <rosparam file="$(find dashan_2dnav)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find dashan_2dnav)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find dashan_2dnav)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find dashan_2dnav)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find dashan_2dnav)/config/base_local_planner_params.yaml" command="load" />
+  </node>
+  
+</launch>

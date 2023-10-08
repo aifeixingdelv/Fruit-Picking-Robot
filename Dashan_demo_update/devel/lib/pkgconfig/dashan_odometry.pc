@@ -1,0 +1,8 @@
+prefix=/home/zhishan/Dashan_demo_update/devel
+
+Name: dashan_odometry
+Description: Description of dashan_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhishan/Dashan_demo_update/devel/lib 
+Requires: 

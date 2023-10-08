@@ -1,0 +1,30 @@
+... logging to /home/zhishan/map_config/994a53a6-b25f-11eb-b905-c400ad13a228/roslaunch-zhishan-robot-30948.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://192.168.1.18:34286/[0m
+ros_comm version 1.11.20
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: indigo
+ * /rosversion: 1.11.20
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [30960][0m
+[1mROS_MASTER_URI=http://192.168.1.18:11311/[0m
+]2;roscore http://192.168.1.18:11311/
+[1msetting /run_id to 994a53a6-b25f-11eb-b905-c400ad13a228[0m
+[1mprocess[rosout-1]: started with pid [30973][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

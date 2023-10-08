@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="keyboard_control" type="keyboard_control_node" name="keyboard_control_node"/>
+</launch>

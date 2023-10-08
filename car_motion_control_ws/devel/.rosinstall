@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/devel/setup.sh

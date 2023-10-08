@@ -1,0 +1,8 @@
+prefix=/home/zhishan/Dashan_demo_update/devel
+
+Name: dashan_velsmoother
+Description: Description of dashan_velsmoother
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhishan/Dashan_demo_update/devel/lib 
+Requires: 

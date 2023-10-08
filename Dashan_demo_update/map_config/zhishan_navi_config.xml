@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamTable Version="1">
+	<navigation
+	max_vel_linear="0.8" 
+	max_vel_z="0.5" 
+	backward_vel="0.0" 
+	z_goal_tolerance="0.3" 
+	xy_goal_tolerance="0.3"  
+	path_scale="0.6"     
+	gdist_scale="0.8"    
+	sim_time="5.0"       
+	sim_granularity="0.05" 
+	obstacle_range="2.5"  
+	raytrace_range="3.0"  
+	inflation_radius="0.1" 
+	vehicle_head="0.32"
+	vehicle_tail="0.30"
+	vehicle_halfwidth="0.25"
+	stay_time="1.0"
+	/>
+</ParamTable>

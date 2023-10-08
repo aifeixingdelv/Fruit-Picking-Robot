@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="dashan_serial" pkg="dashan_serial" type="dashan_serial" output="screen"> 
+   </node>
+
+  <!--<node name="odom_data" pkg="dashan_odometry" type="odom_data" output="screen"> 
+   </node>
+
+  <include file="$(find dashan_description)/launch/myrobot.launch">
+   </include> -->
+
+   <include file="$(find dashan_velsmoother)/launch/standalone.launch">
+    </include>
+</launch>

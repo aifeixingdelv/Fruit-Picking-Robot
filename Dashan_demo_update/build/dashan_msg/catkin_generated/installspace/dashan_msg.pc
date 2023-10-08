@@ -1,0 +1,8 @@
+prefix=/home/zhishan/Dashan_demo_update/install
+
+Name: dashan_msg
+Description: Description of dashan_msg
+Version: 0.0.0
+Cflags: -I/home/zhishan/Dashan_demo_update/install/include
+Libs: -L/home/zhishan/Dashan_demo_update/install/lib 
+Requires: message_runtime std_msgs

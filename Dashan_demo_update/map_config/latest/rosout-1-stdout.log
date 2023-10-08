@@ -1,0 +1,3 @@
+logging to /home/zhishan/map_config/9ccb3b54-81e6-11e9-8fb3-c400ad13a228/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

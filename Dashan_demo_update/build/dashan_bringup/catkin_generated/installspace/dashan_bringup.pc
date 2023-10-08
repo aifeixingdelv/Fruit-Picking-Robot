@@ -1,0 +1,8 @@
+prefix=/home/zhishan/Dashan_demo_update/install
+
+Name: dashan_bringup
+Description: Description of dashan_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhishan/Dashan_demo_update/install/lib 
+Requires: 

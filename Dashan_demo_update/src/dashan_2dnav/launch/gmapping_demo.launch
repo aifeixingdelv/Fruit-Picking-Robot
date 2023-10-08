@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find dashan_2dnav)/launch/gmapping.launch"/>
+
+  <include file="$(find dashan_2dnav)/launch/dashan_move_base.launch"/>
+
+</launch>

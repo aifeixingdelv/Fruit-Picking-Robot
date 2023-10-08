@@ -1,0 +1,8 @@
+prefix=/home/zhishan/Dashan_demo_update/devel
+
+Name: dashan_description
+Description: Description of dashan_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhishan/Dashan_demo_update/devel/lib 
+Requires: 

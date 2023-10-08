@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<launch>
+<!--
+<include file="$(find dashan_description)/launch/dashan_robotstate_publish.launch">
+</include>
+-->
+
+<include file="$(find dashan_description)/launch/zhishan_xiaobai.launch">
+</include>
+
+<!--
+<include file="$(find dashan_description)/launch/zhishan_dabai.launch">
+</include>
+-->
+<!-- use rplidar instead of kinect  -->
+<!--
+<include file="$(find dashan_kinect_laser)/launch/dashan_kinect_laser.launch">
+</include>
+-->
+<!--
+<include file="$(find rplidar_ros)/launch/rplidar.launch">
+</include>
+-->
+<!--
+<include file="$(find pepperl_fuchs_r2000)/launch/r2000.launch" />
+-->
+
+<!--<include file="$(find wr_ls_udp)/launch/wr_ls1207de_udp_with_1_lidar.launch" />-->
+
+<!--
+<include file="$(find lms1xx)/launch/LMS1xx.launch" />
+-->
+<!--
+<node name="urg_node" pkg="urg_node" type="urg_node">
+<param name="ip_address" value="192.168.1.3"/>
+<param name="ip_port" value="10940"/>
+</node>
+-->
+<include file="$(find dashan_velsmoother)/launch/standalone.launch" />
+</launch>

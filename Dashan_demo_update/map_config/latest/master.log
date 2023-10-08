@@ -1,0 +1,156 @@
+[rosmaster.main][INFO] 2019-05-29 15:51:49,462: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-05-29 15:51:49,462: Starting ROS Master Node
+[xmlrpc][INFO] 2019-05-29 15:51:49,466: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-05-29 15:51:49,467: Started XML-RPC server [http://192.168.1.18:11311/]
+[rosmaster.master][INFO] 2019-05-29 15:51:49,468: Master initialized: port[11311], uri[http://192.168.1.18:11311/]
+[xmlrpc][INFO] 2019-05-29 15:51:49,468: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-05-29 15:51:49,484: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,488: +PARAM [/roslaunch/uris/host_192_168_1_18__35936] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,499: +PUB [/rosout] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,502: +PUB [/rosout] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,504: +SERVICE [/Zshan_serial/get_loggers] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,507: +PUB [/rosout] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,512: +SERVICE [/odom_data/get_loggers] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,513: +PUB [/rosout] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,514: +PUB [/rosout] /dashan_mode http://192.168.1.18:33527/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,517: +SERVICE [/Zshan_serial/set_logger_level] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,520: +PUB [/rosout] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,523: +SERVICE [/rec_rpc_server/get_loggers] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,524: +SERVICE [/odom_data/set_logger_level] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,526: +SERVICE [/dashan_diagnosis/get_loggers] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,529: +SERVICE [/dashan_mode/get_loggers] /dashan_mode http://192.168.1.18:33527/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,530: +SERVICE [/dashan_core/get_loggers] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,534: +SERVICE [/rec_rpc_server/set_logger_level] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,536: +SERVICE [/dashan_diagnosis/set_logger_level] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,538: +SERVICE [/dashan_mode/set_logger_level] /dashan_mode http://192.168.1.18:33527/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,541: +SERVICE [/dashan_core/set_logger_level] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,554: +PUB [/dashan_diag] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,559: +PUB [/move_base_simple/goal] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,563: +PUB [/zhishanAndroid/diagnosis] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,570: +PUB [/dashan_hmiCmd] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,573: +PUB [/turtlebot_teleop/cmd_vel] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,576: +SUB [/turtlebot_teleop/cmd_vel] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,578: +PUB [/zhishanAndroid/hmiStatus] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,587: +SUB [/wheel_speed] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,590: +PUB [/initialpose] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,598: +SUB [/tf] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,599: +PUB [/zhishanAndroid/zhishancmd] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,601: +SUB [/dashan_mode] /dashan_mode http://192.168.1.18:33527/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,609: +PUB [/core_diagnosis] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,617: +PUB [/move_base/cancel] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,626: +SUB [/zhishanAndroid/zhishancmd] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,629: +SUB [/smooth_cmd_vel] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,639: +SUB [/amcl_pose] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,649: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,650: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,652: +PARAM [/velocity_smoother/frequency] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,652: +PARAM [/velocity_smoother/speed_lim_w] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,653: +SUB [/tf_static] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,655: +PARAM [/velocity_smoother/speed_lim_v] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,659: +PARAM [/velocity_smoother/accel_lim_w] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,660: +PARAM [/velocity_smoother/decel_factor] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,662: +SERVICE [/rosout/get_loggers] /rosout http://192.168.1.18:33115/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,661: +PARAM [/velocity_smoother/accel_lim_v] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,664: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,667: +PARAM [/velocity_smoother/robot_feedback] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,668: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2019-05-29 15:51:49,674: +SERVICE [/rosout/set_logger_level] /rosout http://192.168.1.18:33115/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,681: +SUB [/zhishanAndroid/zhishancmd] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,693: +SUB [/odom] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,696: +SUB [/zhishanAndroid/zhishancmd] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,705: +PUB [/rosout_agg] /rosout http://192.168.1.18:33115/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,714: +SUB [/xyyawtoOdom] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,726: +SUB [/move_base/status] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,735: +PUB [/rosout] /footprint_baselink_tf_publisher http://192.168.1.18:35863/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,750: +SERVICE [/footprint_baselink_tf_publisher/get_loggers] /footprint_baselink_tf_publisher http://192.168.1.18:35863/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,758: +SUB [/amcl_pose] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,761: +SERVICE [/footprint_baselink_tf_publisher/set_logger_level] /footprint_baselink_tf_publisher http://192.168.1.18:35863/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,766: +SUB [/dashan_diag] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,770: +PUB [/rosout] /velocity_smoother http://192.168.1.18:39622/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,774: +SUB [/rosout] /rosout http://192.168.1.18:33115/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,776: +PUB [/wheel_speed] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,782: +SERVICE [/velocity_smoother/get_loggers] /velocity_smoother http://192.168.1.18:39622/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,784: +PUB [/tf] /footprint_baselink_tf_publisher http://192.168.1.18:35863/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,786: +PUB [/imu_data] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,788: +SUB [/move_base/feedback] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,791: +SERVICE [/velocity_smoother/set_logger_level] /velocity_smoother http://192.168.1.18:39622/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,794: +PUB [/zhishanAndroid/hmiStatus] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,801: +PUB [/zhishanAndroid/zhishancmd] /Zshan_serial http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,805: +SUB [/odom] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,811: +PARAM [/velocity_smoother] by /velocity_smoother
+[rosmaster.master][INFO] 2019-05-29 15:51:49,820: +SUB [/move_base/result] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,825: +PUB [/move_base/goal] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,827: +SUB [/zhishanAndroid/customRoute] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,829: +PUB [/move_base/cancel] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,844: +PUB [/rosout] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,848: +SERVICE [/nodelet_manager/get_loggers] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,851: +SUB [/move_base/status] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,853: +SERVICE [/nodelet_manager/set_logger_level] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,858: +SUB [/scan] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,867: publisherUpdate[/wheel_speed] -> http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,869: publisherUpdate[/tf] -> http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,872: publisherUpdate[/zhishanAndroid/zhishancmd] -> http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,874: +SUB [/move_base/goal] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,877: +SERVICE [/nodelet_manager/load_nodelet] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,880: +SERVICE [/nodelet_manager/unload_nodelet] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,885: +SERVICE [/nodelet_manager/list] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,886: +SUB [/odom] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,889: publisherUpdate[/zhishanAndroid/zhishancmd] -> http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,907: +SUB [/move_base/NavfnROS/plan] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,909: +SUB [/dashan_mode] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,911: publisherUpdate[/zhishanAndroid/zhishancmd] -> http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,914: publisherUpdate[/rosout] -> http://192.168.1.18:33115/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,922: +PUB [/rosout] /baselink_scan_tf_publisher http://192.168.1.18:37120/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,928: +SERVICE [/baselink_scan_tf_publisher/get_loggers] /baselink_scan_tf_publisher http://192.168.1.18:37120/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,933: +SERVICE [/baselink_scan_tf_publisher/set_logger_level] /baselink_scan_tf_publisher http://192.168.1.18:37120/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,936: +SUB [/move_base/current_goal] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,940: +SUB [/save_map_cmd] /dashan_core http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,943: +PUB [/tf] /baselink_scan_tf_publisher http://192.168.1.18:37120/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,950: +SUB [/map] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,958: +SUB [/imu_data] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,965: +SUB [/wheel_speed] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,973: +SERVICE [/velocity_smoother/set_parameters] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,979: +PUB [/velocity_smoother/parameter_descriptions] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,984: +SUB [/core_diagnosis] /dashan_diagnosis http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,986: +PUB [/velocity_smoother/parameter_updates] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:49,987: publisherUpdate[/rosout] -> http://192.168.1.18:33115/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,005: +PARAM [/velocity_smoother/speed_lim_v] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,007: publisherUpdate[/tf] -> http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,008: +SUB [/amcl_pose] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,010: +PARAM [/velocity_smoother/speed_lim_w] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,013: +PARAM [/velocity_smoother/accel_lim_v] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,016: +PARAM [/velocity_smoother/accel_lim_w] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,020: +PARAM [/velocity_smoother/decel_factor] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,023: +PARAM [/velocity_smoother/speed_lim_v] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,026: +SUB [/battery] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,028: +PARAM [/velocity_smoother/speed_lim_w] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,030: +PUB [/initialpose] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,031: +PARAM [/velocity_smoother/accel_lim_v] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,034: +PARAM [/velocity_smoother/accel_lim_w] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,035: +PUB [/move_base_simple/goal] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,037: +PARAM [/velocity_smoother/decel_factor] by /nodelet_manager
+[rosmaster.master][INFO] 2019-05-29 15:51:50,038: +PUB [/cmd_vel] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,042: +PUB [/dashan_mode] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,046: +PUB [/save_map_cmd] /rec_rpc_server http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,068: +SUB [/odom] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,077: +SUB [/robot_cmd_vel] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,086: +SUB [/cmd_vel] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,088: +PUB [/smooth_cmd_vel] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,091: +PUB [/nodelet_manager/bond] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,099: +SUB [/nodelet_manager/bond] /nodelet_manager http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,110: +PUB [/nodelet_manager/bond] /velocity_smoother http://192.168.1.18:39622/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,117: publisherUpdate[/dashan_mode] -> http://192.168.1.18:33527/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,120: publisherUpdate[/dashan_mode] -> http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,121: publisherUpdate[/save_map_cmd] -> http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,123: +SUB [/nodelet_manager/bond] /velocity_smoother http://192.168.1.18:39622/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,123: publisherUpdate[/smooth_cmd_vel] -> http://192.168.1.18:36328/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,125: publisherUpdate[/nodelet_manager/bond] -> http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,757: +SUB [/imu_data] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,760: +PUB [/odom] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,762: +PUB [/initialpose] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,764: +PUB [/tf] /odom_data http://192.168.1.18:40449/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,829: publisherUpdate[/odom] -> http://192.168.1.18:34745/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,829: publisherUpdate[/odom] -> http://192.168.1.18:41184/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,831: publisherUpdate[/odom] -> http://192.168.1.18:44072/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,831: publisherUpdate[/odom] -> http://192.168.1.18:45380/
+[rosmaster.master][INFO] 2019-05-29 15:51:50,833: publisherUpdate[/tf] -> http://192.168.1.18:44072/
