@@ -13,7 +13,7 @@
 * 一键启动：在car_motion_control_ws目录下，cd sh; ./slave_board_joy.sh(手柄控制) or ./slave_board_keyboard.sh（键盘控制）
 * 更换平台或手柄接口时,保证ros平台安装joy包（sudo apt-get install ros-kinetic-joy），并需要更新joy_control.launch中的dev设备名，手柄设备名查找方法ls /dev/input/; jstest /dev/input/jsxxxxx
 
-## path_track_ws(上位机端，未测试代码)
+## path_track_ws：路径跟踪代码(上位机端，未测试代码)
 * path_track_pkg包，使用pid+预瞄点进行路径跟踪
 
 ## 注意
