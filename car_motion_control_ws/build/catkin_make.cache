@@ -1,2 +1,0 @@
-joy_control:keyboard_control
--DCATKIN_DEVEL_PREFIX=/home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/install -G Unix Makefiles
