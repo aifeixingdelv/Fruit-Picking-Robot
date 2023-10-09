@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

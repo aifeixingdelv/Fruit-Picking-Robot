@@ -1,4 +1,4 @@
-prefix=/home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/devel
+prefix=/home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/devel
 
 Name: keyboard_control
 Description: Description of keyboard_control

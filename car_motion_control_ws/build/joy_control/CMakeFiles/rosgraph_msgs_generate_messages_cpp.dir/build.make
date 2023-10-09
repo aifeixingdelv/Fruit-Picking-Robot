@@ -53,10 +53,10 @@ RM = /home/gq/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/src
+CMAKE_SOURCE_DIR = /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/build
+CMAKE_BINARY_DIR = /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -74,10 +74,10 @@ joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: rosgraph_m
 .PHONY : joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/build/joy_control && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/build/joy_control && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/src /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/src/joy_control /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/build /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/build/joy_control /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/build/joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/src /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/src/joy_control /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/build /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/build/joy_control /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/build/joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : joy_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

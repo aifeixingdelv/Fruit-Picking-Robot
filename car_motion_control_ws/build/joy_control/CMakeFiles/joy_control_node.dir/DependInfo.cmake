@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/src/joy_control/src/joy_control_node.cpp" "joy_control/CMakeFiles/joy_control_node.dir/src/joy_control_node.cpp.o" "gcc" "joy_control/CMakeFiles/joy_control_node.dir/src/joy_control_node.cpp.o.d"
+  "/home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/src/joy_control/src/joy_control_node.cpp" "joy_control/CMakeFiles/joy_control_node.dir/src/joy_control_node.cpp.o" "gcc" "joy_control/CMakeFiles/joy_control_node.dir/src/joy_control_node.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

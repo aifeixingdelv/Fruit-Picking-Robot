@@ -1,5 +1,5 @@
 joy_control/CMakeFiles/joy_control_node.dir/src/joy_control_node.cpp.o: \
- /home/gq/Projects/fruit_picking_robot/github/fruit-picking-robot/car_motion_control_ws/src/joy_control/src/joy_control_node.cpp \
+ /home/gq/Projects/fruit_picking_robot/github/Fruit-Picking-Robot/car_motion_control_ws/src/joy_control/src/joy_control_node.cpp \
  /usr/include/stdc-predef.h /opt/ros/noetic/include/ros/ros.h \
  /opt/ros/noetic/include/ros/time.h \
  /opt/ros/noetic/include/ros/platform.h /usr/include/c++/9/stdlib.h \
