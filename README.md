@@ -11,7 +11,7 @@
 * 手柄控制底盘功能包包含功能：前后左右运动、急刹车、加档、减档
 * 编译：在car_motion_control_ws目录下， rm -rf build devel; catkin_make
 * 一键启动：在car_motion_control_ws目录下，cd sh; ./slave_board_joy.sh(手柄控制) or ./slave_board_keyboard.sh（键盘控制）
-* 更换平台或手柄接口时需要更新joy_control.launch中的dev设备名，手柄设备名查找方法 cat /proc
+* 更换平台或手柄接口时,保证ros平台安装joy包（sudo apt-get install ros-kinetic-joy），并需要更新joy_control.launch中的dev设备名，手柄设备名查找方法ls /dev/input/; jstest /dev/input/jsxxxxx
 
 ## 注意
 * 上位机ip地址应与控制底盘ip地址在同一个网段下（ **192.168.0.xxx** ）
