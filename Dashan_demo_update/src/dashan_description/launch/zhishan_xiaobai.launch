@@ -1,8 +1,0 @@
-<launch>
-    <arg name="model" />
-    <arg name="gui" default="False" />
-    <param name="robot_description" textfile="$(find dashan_description)/urdf/xiaobai.urdf" />
-    <param name="use_gui" value="$(arg gui)"/>
-	<node pkg="tf" type="static_transform_publisher" name="footprint_baselink_tf_publisher" args="0 0 0 0 0 0 base_footprint base_link 20" />
-    <node pkg="tf" type="static_transform_publisher" name="baselink_scan_tf_publisher" args="0.50 0 0.50 0 0 0 base_link scan 20" />
-</launch>

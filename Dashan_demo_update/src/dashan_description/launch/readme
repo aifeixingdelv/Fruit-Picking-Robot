@@ -1,5 +1,0 @@
-运行dashan_robotstate_publish.launch发布机器人关节及状态信息；
-运行rviz.launch启动rviz可视化工具；
-两个launch文件没有依赖，分别独立运行，不要同时运行！
-
-在树莓派上仅需运行dashan_robotstate_publish.launch ！
