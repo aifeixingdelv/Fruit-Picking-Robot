@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/ebox_qt_ws/install/setup.sh

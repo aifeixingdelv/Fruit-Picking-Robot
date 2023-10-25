@@ -1,0 +1,175 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In constructor ‘[01m[KEboxmainwindow::Eboxmainwindow(QWidget*)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:18:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kros::Publisher[m[K’)
+   18 |   twist_pub_ = [01;31m[K*nh->advertise<geometry_msgs::Twist>("smooth_cmd_vel", 1)[m[K;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwidget.h:46[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/../include/ebox_qt_pkg/ebox_mainwindow.h:4[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:183:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QMargins operator*(const QMargins&, int)[m[K’
+  183 | Q_DECL_CONSTEXPR inline QMargins [01;36m[Koperator[m[K*(const QMargins &margins, int factor) Q_DECL_NOTHROW
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:183:34:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:189:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QMargins operator*(int, const QMargins&)[m[K’
+  189 | Q_DECL_CONSTEXPR inline QMargins [01;36m[Koperator[m[K*(int factor, const QMargins &margins) Q_DECL_NOTHROW
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:189:34:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:195:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QMargins operator*(const QMargins&, qreal)[m[K’
+  195 | Q_DECL_CONSTEXPR inline QMargins [01;36m[Koperator[m[K*(const QMargins &margins, qreal factor) Q_DECL_NOTHROW
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:195:34:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:201:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QMargins operator*(qreal, const QMargins&)[m[K’
+  201 | Q_DECL_CONSTEXPR inline QMargins [01;36m[Koperator[m[K*(qreal factor, const QMargins &margins) Q_DECL_NOTHROW
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:201:34:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:415:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QMarginsF operator*(const QMarginsF&, qreal)[m[K’
+  415 | Q_DECL_CONSTEXPR inline QMarginsF [01;36m[Koperator[m[K*(const QMarginsF &lhs, qreal rhs) Q_DECL_NOTHROW
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:415:35:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:421:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QMarginsF operator*(qreal, const QMarginsF&)[m[K’
+  421 | Q_DECL_CONSTEXPR inline QMarginsF [01;36m[Koperator[m[K*(qreal lhs, const QMarginsF &rhs) Q_DECL_NOTHROW
+      |                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h:421:35:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qrect.h:44[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qpaintdevice.h:45[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwidget.h:47[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/../include/ebox_qt_pkg/ebox_mainwindow.h:4[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:181:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QSize operator*(const QSize&, qreal)[m[K’
+  181 | Q_DECL_CONSTEXPR inline const QSize [01;36m[Koperator[m[K*(const QSize &s, qreal c) Q_DECL_NOTHROW
+      |                                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:181:37:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:184:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QSize operator*(qreal, const QSize&)[m[K’
+  184 | Q_DECL_CONSTEXPR inline const QSize [01;36m[Koperator[m[K*(qreal c, const QSize &s) Q_DECL_NOTHROW
+      |                                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:184:37:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:351:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QSizeF operator*(const QSizeF&, qreal)[m[K’
+  351 | Q_DECL_CONSTEXPR inline const QSizeF [01;36m[Koperator[m[K*(const QSizeF &s, qreal c) Q_DECL_NOTHROW
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:351:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:354:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QSizeF operator*(qreal, const QSizeF&)[m[K’
+  354 | Q_DECL_CONSTEXPR inline const QSizeF [01;36m[Koperator[m[K*(qreal c, const QSizeF &s) Q_DECL_NOTHROW
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h:354:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qrect.h:45[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qpaintdevice.h:45[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwidget.h:47[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/../include/ebox_qt_pkg/ebox_mainwindow.h:4[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:175:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPoint operator*(const QPoint&, float)[m[K’
+  175 | Q_DECL_CONSTEXPR inline const QPoint [01;36m[Koperator[m[K*(const QPoint &p, float factor)
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:175:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:178:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPoint operator*(const QPoint&, double)[m[K’
+  178 | Q_DECL_CONSTEXPR inline const QPoint [01;36m[Koperator[m[K*(const QPoint &p, double factor)
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:178:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:181:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPoint operator*(const QPoint&, int)[m[K’
+  181 | Q_DECL_CONSTEXPR inline const QPoint [01;36m[Koperator[m[K*(const QPoint &p, int factor)
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:181:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:184:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPoint operator*(float, const QPoint&)[m[K’
+  184 | Q_DECL_CONSTEXPR inline const QPoint [01;36m[Koperator[m[K*(float factor, const QPoint &p)
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:184:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:187:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPoint operator*(double, const QPoint&)[m[K’
+  187 | Q_DECL_CONSTEXPR inline const QPoint [01;36m[Koperator[m[K*(double factor, const QPoint &p)
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:187:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:190:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPoint operator*(int, const QPoint&)[m[K’
+  190 | Q_DECL_CONSTEXPR inline const QPoint [01;36m[Koperator[m[K*(int factor, const QPoint &p)
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:190:38:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:375:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPointF operator*(const QPointF&, qreal)[m[K’
+  375 | Q_DECL_CONSTEXPR inline const QPointF [01;36m[Koperator[m[K*(const QPointF &p, qreal c)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:375:39:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:380:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr const QPointF operator*(qreal, const QPointF&)[m[K’
+  380 | Q_DECL_CONSTEXPR inline const QPointF [01;36m[Koperator[m[K*(qreal c, const QPointF &p)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h:380:39:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qbrush.h:49[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/../include/ebox_qt_pkg/ebox_mainwindow.h:4[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:146:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPoint operator*(const QPoint&, const QMatrix&)[m[K’
+  146 | inline QPoint [01;36m[Koperator[m[K*(const QPoint &p, const QMatrix &m)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:146:15:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:148:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPointF operator*(const QPointF&, const QMatrix&)[m[K’
+  148 | inline QPointF [01;36m[Koperator[m[K*(const QPointF &p, const QMatrix &m)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:148:16:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:150:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQLineF operator*(const QLineF&, const QMatrix&)[m[K’
+  150 | inline QLineF [01;36m[Koperator[m[K*(const QLineF &l, const QMatrix &m)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:150:15:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:152:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQLine operator*(const QLine&, const QMatrix&)[m[K’
+  152 | inline QLine [01;36m[Koperator[m[K*(const QLine &l, const QMatrix &m)
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:152:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:154:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPolygon operator*(const QPolygon&, const QMatrix&)[m[K’
+  154 | inline QPolygon [01;36m[Koperator[m[K *(const QPolygon &a, const QMatrix &m)
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:154:17:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:156:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPolygonF operator*(const QPolygonF&, const QMatrix&)[m[K’
+  156 | inline QPolygonF [01;36m[Koperator[m[K *(const QPolygonF &a, const QMatrix &m)
+      |                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:156:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:158:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQRegion operator*(const QRegion&, const QMatrix&)[m[K’
+  158 | inline QRegion [01;36m[Koperator[m[K *(const QRegion &r, const QMatrix &m)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:158:16:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:160:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPainterPath operator*(const QPainterPath&, const QMatrix&)[m[K’
+  160 | Q_GUI_EXPORT QPainterPath [01;36m[Koperator[m[K *(const QPainterPath &p, const QMatrix &m);
+      |                           [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h:160:27:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qbrush.h:50[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qpalette.h:46[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/qwidget.h:48[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/qt5/QtWidgets/QWidget:1[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/../include/ebox_qt_pkg/ebox_mainwindow.h:4[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:383:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPoint operator*(const QPoint&, const QTransform&)[m[K’
+  383 | inline QPoint [01;36m[Koperator[m[K*(const QPoint &p, const QTransform &m)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:383:15:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:385:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPointF operator*(const QPointF&, const QTransform&)[m[K’
+  385 | inline QPointF [01;36m[Koperator[m[K*(const QPointF &p, const QTransform &m)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:385:16:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:387:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQLineF operator*(const QLineF&, const QTransform&)[m[K’
+  387 | inline QLineF [01;36m[Koperator[m[K*(const QLineF &l, const QTransform &m)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:387:15:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:389:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQLine operator*(const QLine&, const QTransform&)[m[K’
+  389 | inline QLine [01;36m[Koperator[m[K*(const QLine &l, const QTransform &m)
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:389:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:391:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPolygon operator*(const QPolygon&, const QTransform&)[m[K’
+  391 | inline QPolygon [01;36m[Koperator[m[K *(const QPolygon &a, const QTransform &m)
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:391:17:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:393:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPolygonF operator*(const QPolygonF&, const QTransform&)[m[K’
+  393 | inline QPolygonF [01;36m[Koperator[m[K *(const QPolygonF &a, const QTransform &m)
+      |                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:393:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:395:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQRegion operator*(const QRegion&, const QTransform&)[m[K’
+  395 | inline QRegion [01;36m[Koperator[m[K *(const QRegion &r, const QTransform &m)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:395:16:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:397:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQPainterPath operator*(const QPainterPath&, const QTransform&)[m[K’
+  397 | inline QPainterPath [01;36m[Koperator[m[K *(const QPainterPath &p, const QTransform &m)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:397:21:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:400:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQTransform operator*(const QTransform&, qreal)[m[K’
+  400 | inline QTransform [01;36m[Koperator[m[K *(const QTransform &a, qreal n)
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h:400:19:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

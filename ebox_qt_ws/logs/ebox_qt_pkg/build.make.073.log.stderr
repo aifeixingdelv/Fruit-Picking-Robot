@@ -1,0 +1,7 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:35:14:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kjoin[m[K’ in ‘[01m[KMyFunction[m[K’, which is of non-class type ‘[01m[Kvoid()[m[K’
+   35 |   MyFunction.[01;31m[Kjoin[m[K();
+      |              [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:84: CMakeFiles/ebox_mainwindow_node.dir/node/ebox_mainwindow_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

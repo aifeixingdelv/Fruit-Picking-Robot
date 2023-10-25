@@ -1,0 +1,36 @@
+CMake Warning (dev) in /usr/src/googletest/googlemock/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gmock_main.  AUTOMOC, AUTOUIC
+  and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googlemock/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gmock.  AUTOMOC, AUTOUIC and
+  AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googletest/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gtest_main.  AUTOMOC, AUTOUIC
+  and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /usr/src/googletest/googletest/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target gtest.  AUTOMOC, AUTOUIC and
+  AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

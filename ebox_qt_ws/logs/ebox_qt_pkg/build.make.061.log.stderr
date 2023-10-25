@@ -1,0 +1,9 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In member function ‘[01m[Kvoid Eboxmainwindow::timer_update()[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcar_connect_lineedit[m[K’ was not declared in this scope; did you mean ‘[01m[Kcar_connect_text[m[K’?
+   43 |   [01;31m[Kcar_connect_lineedit[m[K.setText(car_connect_text);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kcar_connect_text[m[K
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

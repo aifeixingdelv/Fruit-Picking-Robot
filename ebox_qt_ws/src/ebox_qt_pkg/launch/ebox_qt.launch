@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find ebox_qt_pkg)/config/config.yaml" />
+  <node name="ebox_mainwindow_node" type="ebox_mainwindow_node" pkg="ebox_qt_pkg" output="screen" />
+</launch>

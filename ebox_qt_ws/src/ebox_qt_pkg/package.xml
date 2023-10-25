@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+<name>ebox_qt_pkg</name>
+<version>0.0.0</version>
+<description>The ebox_qt_pkg package</description>
+<maintainer email="nvidia@todo.todo">nvidia</maintainer>
+<license>TODO</license>
+<buildtool_depend>catkin</buildtool_depend>
+<build_depend>qt_build</build_depend>
+<build_depend>roscpp</build_depend>
+<build_depend>libqt4-dev</build_depend>
+<exec_depend>qt_build</exec_depend>
+<exec_depend>roscpp</exec_depend>
+<exec_depend>libqt4-dev</exec_depend>
+</package>

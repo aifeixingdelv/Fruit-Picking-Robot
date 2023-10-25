@@ -1,0 +1,11 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In constructor ‘[01m[KEboxmainwindow::Eboxmainwindow(QWidget*)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knh_[m[K’ was not declared in this scope; did you mean ‘[01m[Knh[m[K’?
+   18 |   twist_pub_ = [01;31m[Knh_[m[K.advertise<geometry_msgs::Twist>("smooth_cmd_vel", 1);
+      |                [01;31m[K^~~[m[K
+      |                [32m[Knh[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:18:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   18 |   twist_pub_ = nh_.advertise<geometry_msgs::Twist[01;31m[K>[m[K("smooth_cmd_vel", 1);
+      |                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

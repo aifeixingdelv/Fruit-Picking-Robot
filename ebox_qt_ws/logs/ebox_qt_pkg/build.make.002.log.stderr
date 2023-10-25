@@ -1,0 +1,11 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In constructor ‘[01m[KEboxmainwindow::Eboxmainwindow(QWidget*)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:8:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+    8 |   ui->label->setText(QString::fromStdString("路径异常"))
+      |                                                             [01;31m[K^[m[K
+      |                                                             [32m[K;[m[K
+    9 | [32m[K}[m[K
+      | [32m[K~[m[K                                                            
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

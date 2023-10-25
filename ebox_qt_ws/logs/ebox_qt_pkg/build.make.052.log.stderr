@@ -1,0 +1,6 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:[m[K In function ‘[01m[Kvoid DataProcessFunction()[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:21:34:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 3 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+   21 |     sprintf(command, "ping -c 1 [01;35m[K%s[m[K", car_ip);
+      |                                 [01;35m[K~^[m[K
+      |                                  [01;35m[K|[m[K
+      |                                  [01;35m[Kchar*[m[K

@@ -1,0 +1,12 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:[m[K In function ‘[01m[Kvoid Car_Connect_Detect_Function()[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:21:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 3 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+   21 |     sprintf(command, "ping [01;35m[K%s[m[K", car_ip);
+      |                            [01;35m[K~^[m[K
+      |                             [01;35m[K|[m[K
+      |                             [01;35m[Kchar*[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:45:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+   45 |   printf("[01;35m[K%s[m[K",car_ip);
+      |           [01;35m[K~^[m[K
+      |            [01;35m[K|[m[K
+      |            [01;35m[Kchar*[m[K

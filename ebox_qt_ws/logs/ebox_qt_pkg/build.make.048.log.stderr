@@ -1,0 +1,20 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:29:30:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+   29 |   nh.getParam("init/car_ip", [01;31m[Kcar_ip[m[K);
+      |                              [01;31m[K^~~~~~[m[K
+      |                              [01;31m[K|[m[K
+      |                              [01;31m[Kchar*[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:1705:46:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool ros::NodeHandle::getParam(const string&, int&) const[m[K’
+ 1705 |   bool getParam(const std::string& key, [01;36m[Kint& i[m[K) const;
+      |                                         [01;36m[K~~~~~^[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:29:30:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue ‘[01m[K(int)car_ip[m[K’ to ‘[01m[Kint&[m[K’
+   29 |   nh.getParam("init/car_ip", [01;31m[Kcar_ip[m[K);
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:35:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   35 |   [01;31m[K=[m[K system(command);
+      |   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:84: CMakeFiles/ebox_mainwindow_node.dir/node/ebox_mainwindow_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

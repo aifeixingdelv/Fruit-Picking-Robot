@@ -1,0 +1,6 @@
+[ 12%] [34m[1mAutomatic MOC and UIC for target ebox_mainwindow_node[0m
+[ 12%] Built target ebox_mainwindow_node_autogen
+[35m[1mScanning dependencies of target ebox_mainwindow_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable /home/nvidia/ebox_qt_ws/devel/lib/ebox_qt_pkg/ebox_mainwindow_node[0m
+[100%] Built target ebox_mainwindow_node

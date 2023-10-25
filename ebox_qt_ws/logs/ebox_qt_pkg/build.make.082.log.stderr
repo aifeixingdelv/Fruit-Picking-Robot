@@ -1,0 +1,17 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/node/ebox_mainwindow_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[K../include/ebox_qt_pkg/ebox_mainwindow_node.h: No such file or directory
+    7 | #include [01;31m[K"../include/ebox_qt_pkg/ebox_mainwindow_node.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:84: CMakeFiles/ebox_mainwindow_node.dir/node/ebox_mainwindow_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In constructor ‘[01m[KEboxmainwindow::Eboxmainwindow(QWidget*)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+   18 |   [01;31m[Knh[m[K = new ros::NodeHandle();
+      |   [01;31m[K^~[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In destructor ‘[01m[Kvirtual Eboxmainwindow::~Eboxmainwindow()[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:39:10:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+   39 |   delete [01;31m[Knh[m[K;
+      |          [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

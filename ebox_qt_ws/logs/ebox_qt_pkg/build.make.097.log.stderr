@@ -1,0 +1,15 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In constructor ‘[01m[KEboxmainwindow::Eboxmainwindow(QWidget*)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:18:51:[m[K [01;31m[Kerror: [m[Kinvalid user-defined conversion from ‘[01m[Kros::Publisher[m[K’ to ‘[01m[Kros::Publisher*[m[K’ [[01;31m[K-fpermissive[m[K]
+   18 |   twist_pub_ = [01;31m[Knh->advertise<geometry_msgs::Twist>("smooth_cmd_vel", 1)[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/../include/ebox_qt_pkg/ebox_mainwindow.h:6[m[K,
+                 from [01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/publisher.h:156:5:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kros::Publisher::operator void*() const[m[K’ <near match>
+  156 |     [01;36m[Koperator[m[K void*() const { return (impl_ && impl_->isValid()) ? (void*)1 : (void*)0; }
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/publisher.h:156:5:[m[K [01;36m[Knote: [m[K  no known conversion from ‘[01m[Kvoid*[m[K’ to ‘[01m[Kros::Publisher*[m[K’
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

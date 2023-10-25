@@ -1,0 +1,15 @@
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:[m[K In constructor ‘[01m[KEboxmainwindow::Eboxmainwindow(QWidget*)[m[K’:
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:39:37:[m[K [01;31m[Kerror: [m[K‘[01m[KdirectoryOf[m[K’ was not declared in this scope
+   39 |   QString shibie_image_path = QFile([01;31m[KdirectoryOf[m[K("ebox_mainwindow_node").absoluteFilePath("data/img/tuitu.jpg")).fileName();
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:39:31:[m[K [01;31m[Kerror: [m[K‘[01m[KQFile[m[K’ was not declared in this scope
+   39 |   QString shibie_image_path = [01;31m[KQFile[m[K(directoryOf("ebox_mainwindow_node").absoluteFilePath("data/img/tuitu.jpg")).fileName();
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/nvidia/ebox_qt_ws/src/ebox_qt_pkg/src/ebox_mainwindow.cpp:40:12:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[KQString[m[K’ [[01;35m[K-Wformat=[m[K]
+   40 |   printf("[01;35m[K%s[m[K", shibie_image_path);
+      |           [01;35m[K~^[m[K
+      |            [01;35m[K|[m[K
+      |            [01;35m[Kchar*[m[K
+make[2]: *** [CMakeFiles/ebox_mainwindow_node.dir/build.make:97: CMakeFiles/ebox_mainwindow_node.dir/src/ebox_mainwindow.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/ebox_mainwindow_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
